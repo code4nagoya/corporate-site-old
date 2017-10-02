@@ -537,7 +537,7 @@
             },
             ".mbr-text": {
               "color": "#232323",
-              "text-align": "left"
+              "text-align": "center"
             }
           },
           "_name": "content7",
