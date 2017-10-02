@@ -1750,24 +1750,25 @@ body {
   color: #232323;
   text-align: left;
 }
-.cid-qwBkH9nvX3 {
-  padding-top: 30px;
-  padding-bottom: 60px;
+.cid-qwSVBvhwZ9 {
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
-@media (min-width: 992px) {
-  .cid-qwBkH9nvX3 .mbr-figure {
-    padding-left: 4rem;
-  }
+.cid-qwSVBvhwZ9 .testimonial-text {
+  font-style: italic;
+  color: #676767;
+  font-weight: 300;
 }
-@media (max-width: 992px) {
-  .cid-qwBkH9nvX3 .mbr-figure {
-    padding-top: 1rem;
-  }
+.cid-qwSVBvhwZ9 .mbr-author-name {
+  font-weight: bold;
+  color: #232;
 }
-.cid-qwBkH9nvX3 .mbr-text {
+.cid-qwSVBvhwZ9 .mbr-author-desc {
+  color: #232;
+}
+.cid-qwSVBvhwZ9 .testimonial-text SPAN {
   color: #232323;
-  text-align: center;
 }
 .cid-qu8V8caI0l {
   padding-top: 90px;
