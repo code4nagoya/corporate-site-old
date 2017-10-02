@@ -31,7 +31,9 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": []
-    }
+    },
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -543,11 +545,11 @@
           "_name": "content7",
           "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">瀬戸市、尾張旭市、豊明市、日進市、みよし市、長久手市、東郷町の7市町では、項目名や並び順などを統一した共通形式でデータの公開を進めています。<br><br>是非、今回のイベントで活用してみてください。<br><br>・<a href=\"http://www.city.seto.aichi.jp/docs/2017071500023/\" target=\"_blank\">瀬戸市</a><br>・<a href=\"http://www.city.owariasahi.lg.jp/sisei/data/opendata/kyoutuuopendata.html\" target=\"_blank\">尾張旭市</a><br>・<a href=\"http://www.city.toyoake.lg.jp/3874.htm\" target=\"_blank\">豊明市</a><br>・<a href=\"http://www.city.nisshin.lg.jp/seisaku/opendata/7kyoutuu-opendata.html\" target=\"_blank\">日進市</a><br>・<a href=\"http://www.city.aichi-miyoshi.lg.jp/shisei/opendata/7shimachi-opendata.html\">みよし市</a><br>・<a href=\"http://www.city.nagakute.lg.jp/jyouhou/toukei/opendata/7shimachi_opendata.html\" target=\"_blank\">長久手市</a><br>・<a href=\"http://www.town.aichi-togo.lg.jp/kikaku/toukei/opendata.html\" target=\"_blank\">東郷町</a></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/odlogo128-128x128.png\" alt=\"Mobirise\" title>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qwBkH9nvX3",
-          "_anchor": "content7-12",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content7-12"
         },
         {
           "_styles": {
