@@ -3,7 +3,7 @@
     "name": "My Site",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 39,
+    "uniqCompNum": 35,
     "versionPublish": "4.3.0",
     "theme": {
       "name": "mobirise4",
@@ -31,9 +31,7 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": []
-    },
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    }
   },
   "pages": {
     "index.html": {
@@ -514,42 +512,13 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">オープンデータ紹介</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-4\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">オープンデータ紹介</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-4\">瀬戸市、尾張旭市、豊明市、日進市、みよし市、長久手市、東郷町の7市町では、項目名や並び順などを統一した共通形式でデータの公開を進めています。<br><br>是非、今回のイベントで活用してみてください。<br><br>・<a href=\"http://www.city.seto.aichi.jp/docs/2017071500023/\" target=\"_blank\">瀬戸市</a><br>・<a href=\"http://www.city.owariasahi.lg.jp/sisei/data/opendata/kyoutuuopendata.html\" target=\"_blank\">尾張旭市</a><br>・<a href=\"http://www.city.toyoake.lg.jp/3874.htm\" target=\"_blank\">豊明市</a><br>・<a href=\"http://www.city.nisshin.lg.jp/seisaku/opendata/7kyoutuu-opendata.html\" target=\"_blank\">日進市</a><br>・<a href=\"http://www.city.aichi-miyoshi.lg.jp/shisei/opendata/7shimachi-opendata.html\" target=\"_blank\">みよし市</a><br>・<a href=\"http://www.city.nagakute.lg.jp/jyouhou/toukei/opendata/7shimachi_opendata.html\">長久手市</a><br>・<a href=\"http://www.town.aichi-togo.lg.jp/kikaku/toukei/opendata.html\" target=\"_blank\">東郷町</a></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qwvmkKH6cr",
-          "_anchor": "content4-y",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "@media (min-width: 992px)": {
-              ".mbr-figure": {
-                "padding-left": "4rem"
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".mbr-figure": {
-                "padding-top": "1rem"
-              }
-            },
-            ".mbr-text": {
-              "color": "#232323",
-              "text-align": "left"
-            }
-          },
-          "_name": "content7",
-          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">瀬戸市、尾張旭市、豊明市、日進市、みよし市、長久手市、東郷町の7市町では、項目名や並び順などを統一した共通形式でデータの公開を進めています。<br><br>是非、今回のイベントで活用してみてください。<br><br>・<a href=\"http://www.city.seto.aichi.jp/docs/2017071500023/\" target=\"_blank\">瀬戸市</a><br>・<a href=\"http://www.city.owariasahi.lg.jp/sisei/data/opendata/kyoutuuopendata.html\" target=\"_blank\">尾張旭市</a><br>・<a href=\"http://www.city.toyoake.lg.jp/3874.htm\" target=\"_blank\">豊明市</a><br>・<a href=\"http://www.city.nisshin.lg.jp/seisaku/opendata/7kyoutuu-opendata.html\" target=\"_blank\">日進市</a><br>・<a href=\"http://www.city.aichi-miyoshi.lg.jp/shisei/opendata/7shimachi-opendata.html\">みよし市</a><br>・<a href=\"http://www.city.nagakute.lg.jp/jyouhou/toukei/opendata/7shimachi_opendata.html\" target=\"_blank\">長久手市</a><br>・<a href=\"http://www.town.aichi-togo.lg.jp/kikaku/toukei/opendata.html\" target=\"_blank\">東郷町</a></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/odlogo128-128x128.png\" alt=\"Mobirise\" title>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qwBkH9nvX3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "content7-12"
+          "_anchor": "content4-y"
         },
         {
           "_styles": {
